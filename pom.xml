@@ -51,6 +51,19 @@
                 <version>${flink.version}</version>
             </dependency>
 
+            <!--redis连接器-->
+            <dependency>
+                <groupId>org.apache.bahir</groupId>
+                <artifactId>flink-connector-redis_2.11</artifactId>
+                <version>1.0</version>
+            </dependency>
+
+            <!-- mysql连接器 -->
+            <dependency>
+                <groupId>mysql</groupId>
+                <artifactId>mysql-connector-java</artifactId>
+                <version>8.0.19</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 </project>
